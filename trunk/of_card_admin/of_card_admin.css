@@ -1,0 +1,159 @@
+li#menu-posts-card img {
+    max-width: 20px;
+    padding-top: 6px !important;
+}
+
+div#icon-themes {
+    float: left;
+    width: 30px;
+}
+div#icon-themes span:before {
+    font-size: 34px;
+    color: #0073aa;
+    line-height: 50px;
+}
+.half-div textarea,
+.half-div input[type="text"]
+{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.half-div {
+    max-width: 45%;
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+span.upload-img {
+    cursor: pointer;
+}
+span.upload-img div:before {
+    color: rgba(0,0,0,0.5);
+}
+span.upload-img div {
+    color: rgba(0,0,0,0);
+}
+.single-card .left {
+    width: 10%;
+    display: block;
+    overflow: hidden;
+    float: left;
+    height: 100%;
+}
+.single-card .right {
+    width: 88%;
+    display: block;
+    overflow: hidden;
+    float: left;
+    height: 100%;
+    margin-left: 5px;
+}
+.single-card {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.single-card input {
+    margin-bottom: 10px;
+    display: block;
+}
+span.upload-img
+{
+    background: rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    height: 100%;
+    width: 55px;
+    display: block;
+    cursor: pointer;
+}
+
+span.img-uploade-btn {
+    background: rgba(0,0,0,0.1);
+    height: 78px;
+    width: 55px;
+    display: block;
+    cursor: pointer;
+    float: left;
+    border: none;
+}
+span.img-uploade-btn div {
+    padding: 29px 16.5px;
+}
+span.upload-img div {
+    padding: 13px 17.5px;
+}
+span.upload-img:hover, 
+span.img-uploade-btn:hover{
+    background: rgba(0,0,0,0.05);
+}
+span.upload-img.admin-img {
+    width: 140px;
+}
+span.upload-img.admin-img div {
+    padding: 70px 60px;
+}
+span.upload-img img, span.upload-img-backend-card img {
+    max-width: 100%;
+}
+div#wpfooter {
+    position: relative;
+}
+.single-card img {
+    margin: 0 auto;
+    display: block;
+}
+.login-redirection label {
+    width: 140px;
+    display: inline-block;
+}
+span.upload-img-backend-card {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 78px;
+    position: relative;
+    max-width: 55px;
+}
+.submit-btn {
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    height: 30px;
+    padding: 10px 0;
+}
+span.delete-back-img div.dashicons:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background: #5A1111;
+    font-size: 20px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+span.delete-back-img {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+span.delete-back-img div.dashicons {
+    padding: 0;
+    right: 0;
+    position: relative;
+    float: right;
+    display: block;
+    overflow: hidden;
+    /* width: 55px; */
+    right: 0;
+}
+span.delete-back-img div.dashicons:hover:before {
+    background: #fff;
+    color: #000;
+}

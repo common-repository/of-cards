@@ -1,0 +1,124 @@
+.get-reading > div:first-child {
+    max-width: 250px;
+    float: left;
+    margin-right: 50px;
+}
+.get-reading {
+    font-size: 15px;
+    font-family: cursive;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 650px;
+}
+.single-get-reading {
+    float: left;
+    max-width: 350px;
+}
+.reading-box {
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    border: 1px solid #97488C;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    position: relative;
+}
+.card-img {
+    float: left;
+    padding: 5px;
+    width: 85px;
+}
+.card-img img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.card-cotnent {
+    display: block;
+    float: left;
+}
+.card-cotnent span {
+    line-height: 80px;
+}
+a.btn.btn-shuffle {
+    background: #97488C;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.card-cotnent:after {
+    content: attr(data-txt);
+    background: #ddd;
+}
+.col-half {
+    max-width: 50%;
+    float: left;
+    width: 50%;
+}
+.col-half a{text-decoration: none; }
+a.btn-signup {
+    background: #ddd;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border:none !important;
+}
+p.already_have_account {
+    font-size: 12px;
+}
+form#of-signup-form .form-group {
+    margin-top: 15px;
+}
+ul.of-error-msg {
+    margin-left: 22px;
+    font-size: 14px;
+    color: #c0392b;
+}
+img.selectedImg {
+    border: 3px solid #fff;
+}
+.of-login {
+    max-width: 1080px;
+    display: block;
+    margin: 0 auto;
+}
+form#of-signup-form {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.single-get-reading .reading-box:nth-child(3) .card-cotnent:after,
+.single-get-reading .reading-box:nth-child(4) .card-cotnent:after,
+.single-get-reading .reading-box:last-child .card-cotnent:after
+{
+    position: absolute;
+    right: 8px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+    background: #ea9629;
+    color: #fff;
+    border-radius: 500px;
+    top: 15px;
+    box-shadow: 0 0 0.5em #ea9629;
+    padding: 20px 0;
+    font-size: 13px;
+}
+body.logged-in .single-get-reading .reading-box:nth-child(3) .card-cotnent:after,
+body.logged-in .single-get-reading .reading-box:nth-child(4) .card-cotnent:after,
+body.logged-in .single-get-reading .reading-box:last-child .card-cotnent:after
+{
+    display: none;
+}
